@@ -20,6 +20,14 @@ git init
 
         git push -u origin intB (Create branch intB)
 
+
+        merge branchs
+        git checkout master
+        git pull origin master
+        git branch --merged
+        git merge intB
+        git push origin master
+
  */
 #include<iostream>
 using namespace std;
