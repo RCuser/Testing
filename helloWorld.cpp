@@ -1,4 +1,7 @@
 /*
+
+
+   create git repository
 git init
   git add README.md
     git commit -m "first commit"
@@ -7,18 +10,18 @@ git init
 
 
 
+        check differece and add and push changes to project
         git diff to see changes currently made
         git add -A (or just file name instead of -A)
         git commit -m ""
-
         git pull origin master
         git push origin master
 
 
+        create branch to not affect master branch
         git branch intB (any name besides intB)
         git checkout intB (to switch to it)
-
-        git push -u origin intB (Create branch intB)
+        git push -u origin intB 
 
 
         merge branchs
