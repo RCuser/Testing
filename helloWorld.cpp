@@ -17,6 +17,9 @@ git init
 
         git branch intB (any name besides intB)
         git checkout intB (to switch to it)
+
+        git push -u origin intB (Create branch intB)
+
  */
 #include<iostream>
 using namespace std;
